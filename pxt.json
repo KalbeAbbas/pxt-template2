@@ -1,21 +1,22 @@
 {
-    "name": "pxt-template2",
-    "version": "0.0.0",
-    "description": "",
+    "name": "xChip",
+    "version": "1.0.2",
+    "description": "XinaBox xChip",
+    "authors": [
+        "Luqmaan Baboo"
+    ],
+    "license": "MIT",
     "dependencies": {
-        "xinabox-cc03": "*"
+        "core": "file:../core"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "xChip.h",
+        "xChip.cpp",
+        "xChip.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "supportedTargets": [
-        "maker"
-    ],
-    "preferredEditor": "tsprj"
+    "public": true
 }
